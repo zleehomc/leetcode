@@ -12,7 +12,7 @@ class Solution {
 		int j = len -1;
 		while(nums[j] <= nums[i-1]) j--;
 		swap(nums, j, i-1);
-        reverse(nums, i, len-1);
+		reverse(nums, i, len-1);
 	}
     private void swap(int[] num, int i, int j){
         int tmp;
