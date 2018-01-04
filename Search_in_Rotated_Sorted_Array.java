@@ -9,15 +9,19 @@ class Solution {
 
 		if(nums[begin] < nums[mid]){
 			if(target > nums[begin] && target < nums[end]){
+		if(nums[begin] <= nums[mid]){
+			if(target >= nums[begin] && target < nums[mid]){
 				return fun(nums, begin, mid - 1, target);
 			}else{
 				return fun(nums, mid+1, end, target);
 			}
 		}else{
 			if(target > nums[mid] && target < nums[end]){
+			if(target > nums[mid] && target <= nums[end]){
 				return fun(nums, mid +1, end, target);
 			}else{
 				return fun(nums, begin, mid-1, target)
+				return fun(nums, begin, mid-1, target);
 			}
 		}
 	}
