@@ -1,3 +1,14 @@
+/**
+ * @Author: hyc
+ * @Date:   2018-01-08T18:55:17+08:00
+ * @Email:  514300914@qq.com
+ * @Last modified by:   hyc
+ * @Last modified time: 2018-01-08T19:11:18+08:00
+ * http://chuansong.me/n/390896436960
+ */
+
+
+
 class Solution {
     public int largestRectangleArea(int[] heights) {
         int max = 0;
