@@ -3,7 +3,7 @@
  * @Date:   2018-01-10T17:26:47+08:00
  * @Email:  514300914@qq.com
  * @Last modified by:   hyc
- * @Last modified time: 2018-01-10T17:30:06+08:00
+ * @Last modified time: 2018-01-10T17:31:31+08:00
  */
 
 
@@ -16,7 +16,7 @@ public class Solution {
       Arrays.sort(num);
       int len = num.length;
       for(int i = 0; i < len-2; i++){
-        if(i > 0 && num[i] == num[i-1]) continue;
+        if(== num[i-1]) continue;
         find(num, i+1, len-1, num[i]);
       }
       return ret;
