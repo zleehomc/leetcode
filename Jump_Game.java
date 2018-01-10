@@ -8,6 +8,5 @@ class Solution {
 			max = Math.max(max , nums[i] + i);
 		}
 		return max >= (numsl.length - 1);
-
     }
 }
