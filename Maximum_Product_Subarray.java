@@ -3,7 +3,7 @@
  * @Date:   2018-01-10T16:47:53+08:00
  * @Email:  514300914@qq.com
  * @Last modified by:   hyc
- * @Last modified time: 2018-01-10T16:47:59+08:00
+ * @Last modified time: 2018-01-10T16:56:49+08:00
  */
  class Solution {
      public int maxProduct(int[] nums) {
@@ -17,6 +17,5 @@
              res = Math.max(max, res);
          }
          return res;
-
      }
  }
