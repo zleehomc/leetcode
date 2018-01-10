@@ -3,7 +3,7 @@
  * @Date:   2018-01-10T17:26:47+08:00
  * @Email:  514300914@qq.com
  * @Last modified by:   hyc
- * @Last modified time: 2018-01-10T17:26:52+08:00
+ * @Last modified time: 2018-01-10T17:30:06+08:00
  */
 
 
@@ -13,8 +13,6 @@ public class Solution {
 
     public List<List<Integer>> threeSum(int[] num) {
       if(num == null || num.length < 3) return ret;
-
-
       Arrays.sort(num);
       int len = num.length;
       for(int i = 0; i < len-2; i++){
